@@ -27,16 +27,16 @@ body {
   body h1,
   body h3,
   body h5 {
-    cursor: pointer; }
-  body h1 {
-    font-size: 40px;
+    cursor: pointer;
     color: white; }
+  body h1 {
+    font-size: 40px; }
   body h3 {
-    font-size: 24px; }
+    font-size: 29px; }
   body h5 {
     font-size: 19px; }
   body p {
     font-size: 14px; }
 
 .expand {
-  color: red; }
+  color: #c18e63; }

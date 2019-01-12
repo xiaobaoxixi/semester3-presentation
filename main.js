@@ -1,7 +1,16 @@
 "use strict";
 
 class Parent {
-  constructor(tag, classes, text, parent, listener, action) {
+  constructor(tag, classes, text, parent) {
+    this.elem = this.createElement.apply(this, arguments);
+    if (parent) {
+      this.addToParent(this.elem, parent);
+    }
+    // if (listener && action && typeof action === "function") {
+    //   this.addListener(this.elem, listener, action);
+    // }
+  }
+  createElement(tag, classes, text) {
     const elem = document.createElement(tag);
     elem.textContent = text;
     if (classes instanceof Array) {
@@ -9,15 +18,26 @@ class Parent {
         elem.classList.add(classes[i]);
       }
     }
-    if (parent) {
-      this.addToParent(elem, parent);
-    }
-    if (listener && typeof action === "function") {
-      this.addListener(elem, listener, action);
-    }
+    return elem;
   }
   addToParent(elem, parent) {
     parent.appendChild(elem);
+  }
+  //   addListener(elem, listener, action) {
+  //     elem.addEventListener(listener, e => {
+  //       action(e);
+  //     });
+  //   }
+}
+
+class Title extends Parent {
+  constructor(tag, classes, text, parent, listener, action) {
+    super(tag, classes, text, parent, listener, action);
+    if (listener && Array.isArray(action)) {
+      action.forEach(a => {
+        this.addListener(this.elem, listener, a);
+      });
+    }
   }
   addListener(elem, listener, action) {
     elem.addEventListener(listener, e => {
@@ -27,7 +47,13 @@ class Parent {
 }
 
 function expand(e) {
-  e.target.className = "expand";
+  e.target.classList.toggle("expand");
+  e.target.parentElement.style.width = "100%";
+  e.target.parentElement.style.height = "90%";
+}
+
+function getText(e) {
+  console.log("get text");
 }
 
 // start
@@ -51,18 +77,29 @@ function build(data) {
         "div",
         ["step", "step" + entry.step],
         "",
-        base,
-        "click",
-        expand
+        base
       );
       // fill in first content for each step
       const stepDiv = document.querySelector(`.step${entry.step}`);
-      const eachTitle = new Parent(entry.tag, ["title"], entry.title, stepDiv);
+      const eachTitle = new Title(
+        entry.tag,
+        ["title"],
+        entry.title,
+        stepDiv,
+        "click",
+        [expand, getText]
+      );
     } else {
       // fill in following content for each step
-      console.log(entry);
       const stepDiv = document.querySelector(`.step${entry.step}`);
-      const eachTitle = new Parent(entry.tag, ["title"], entry.title, stepDiv);
+      const eachTitle = new Title(
+        entry.tag,
+        ["title"],
+        entry.title,
+        stepDiv,
+        "click",
+        [expand, getText]
+      );
     }
   });
 }

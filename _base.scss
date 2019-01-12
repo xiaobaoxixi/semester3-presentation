@@ -10,7 +10,7 @@ $purpleColor: #2e2f4b;
 $redColor: #a81c1c;
 $brownColor: #c18e63;
 $heading: 40px;
-$title: 24px;
+$title: 29px;
 $subtitle: 19px;
 $text: 14px;
 
@@ -46,10 +46,10 @@ body {
   h3,
   h5 {
     cursor: pointer;
+    color: white;
   }
   h1 {
     font-size: $heading;
-    color: white;
   }
   h3 {
     font-size: $title;
