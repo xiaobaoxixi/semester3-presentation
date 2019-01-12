@@ -1,5 +1,23 @@
 @import "base";
 
-.expand {
+.brown {
   color: $brownColor;
+}
+.collapse {
+  width: 20px;
+}
+.step {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-beteen;
+  width: 270px;
+  transition: all 0.2s ease;
+  &.expand {
+    width: 100%;
+    height: 90%;
+    border-left: 2px solid $brownColor;
+  }
+}
+.title {
+  margin: 30px;
 }

@@ -47,9 +47,14 @@ class Title extends Parent {
 }
 
 function expand(e) {
-  e.target.classList.toggle("expand");
-  e.target.parentElement.style.width = "100%";
-  e.target.parentElement.style.height = "90%";
+  document.querySelectorAll(".title").forEach(s => {
+    s.classList.remove("brown");
+  });
+  e.target.classList.toggle("brown");
+  document.querySelectorAll(".step").forEach(s => {
+    s.classList.remove("expand");
+  });
+  e.target.parentElement.classList.add("expand");
 }
 
 function getText(e) {

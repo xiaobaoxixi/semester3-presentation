@@ -11,7 +11,7 @@ body {
   height: 100vh; }
   body main {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1330px;
     height: 90vh;
     position: absolute;
     top: 0;
@@ -30,13 +30,30 @@ body {
     cursor: pointer;
     color: white; }
   body h1 {
-    font-size: 40px; }
+    font-size: 37px; }
   body h3 {
-    font-size: 29px; }
+    font-size: 23px; }
   body h5 {
     font-size: 19px; }
   body p {
     font-size: 14px; }
 
-.expand {
+.brown {
   color: #c18e63; }
+
+.collapse {
+  width: 20px; }
+
+.step {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-beteen;
+  width: 270px;
+  transition: all 0.2s ease; }
+  .step.expand {
+    width: 100%;
+    height: 90%;
+    border-left: 2px solid #c18e63; }
+
+.title {
+  margin: 30px; }

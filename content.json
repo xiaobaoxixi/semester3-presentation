@@ -1,41 +1,41 @@
 [
   {
     "step": 1,
-    "tag": "h1",
-    "title": "KEA / MMD / A17 INT / Frontend Elective / Group 11 / Yan"
+    "tag": "h5",
+    "title": "KEA/ MMD/ A17 INT/ Frontend Elective/ Group 11/ Yan"
   },
   {
     "step": 2,
-    "tag": "h3",
-    "title": "HOAP idea"
+    "tag": "h5",
+    "title": "Intro"
   },
   {
     "step": 2,
-    "tag": "h3",
-    "title": "Split tasks"
+    "tag": "h5",
+    "title": "Divide & Conquer"
   },
   {
     "step": 3,
-    "tag": "h5",
+    "tag": "h3",
     "title": "Fixed",
     "text": ["fixed 1", "fixed 2", "fixed 3"]
   },
   {
     "step": 3,
-    "tag": "h5",
+    "tag": "h3",
     "title": "Changed",
     "text": ["changed 1", "changed 2", "changed 3"]
   },
   {
     "step": 3,
-    "tag": "h5",
+    "tag": "h3",
     "title": "Added",
     "text": ["Added 1", "Added 2", "Added 3"]
   },
   {
     "step": 4,
-    "tag": "h5",
-    "title": "Key points",
+    "tag": "h1",
+    "title": "Focuses",
     "text": ["Improve UX", "Solve quota", "Fun"]
   }
 ]
