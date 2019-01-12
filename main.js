@@ -1,7 +1,7 @@
 "use strict";
 
 class Parent {
-  constructor(tag, classes, text, parent, children) {
+  constructor(tag, classes, text, parent, listener, action) {
     const elem = document.createElement(tag);
     elem.textContent = text;
     if (classes instanceof Array) {
@@ -12,13 +12,22 @@ class Parent {
     if (parent) {
       this.addToParent(elem, parent);
     }
-    if (children) {
-      this.addToParent(children, elem);
+    if (listener && typeof action === "function") {
+      this.addListener(elem, listener, action);
     }
   }
   addToParent(elem, parent) {
     parent.appendChild(elem);
   }
+  addListener(elem, listener, action) {
+    elem.addEventListener(listener, e => {
+      action(e);
+    });
+  }
+}
+
+function expand(e) {
+  e.target.className = "expand";
 }
 
 // start
@@ -42,7 +51,9 @@ function build(data) {
         "div",
         ["step", "step" + entry.step],
         "",
-        base
+        base,
+        "click",
+        expand
       );
       // fill in first content for each step
       const stepDiv = document.querySelector(`.step${entry.step}`);
