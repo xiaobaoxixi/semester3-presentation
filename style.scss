@@ -21,13 +21,16 @@
   }
 }
 .title {
-  margin: 15px 0;
+  margin: 10px 0;
+  &.chosen {
+    font-size: $titleChosen;
+  }
 }
 .text {
-  line-height: 1.5;
+  line-height: 1.7;
   font-size: $text;
   color: $brownColor;
 }
-p {
-  margin-bottom: 20px;
+li:first-of-type {
+  margin-top: 30px;
 }

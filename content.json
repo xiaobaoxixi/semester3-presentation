@@ -2,7 +2,8 @@
   {
     "step": 1,
     "tag": "h5",
-    "title": "KEA/ MMD/ A17 INT/ Frontend Elective/ Group 11/ Yan"
+    "title": "KEA/ MMD/ A17 INT/ Frontend Elective/ Group 11/ Yan",
+    "text": ["- with Tiril, Larisa, Karo", "2019 Jan 14"]
   },
   {
     "step": 2,
@@ -23,10 +24,16 @@
   {
     "step": 3,
     "tag": "h3",
+    "title": "=>",
+    "text": ["estimate time: work style", "follow through", "surprises"]
+  },
+  {
+    "step": 3,
+    "tag": "h3",
     "title": "Fixed",
     "text": [
       "page jump when clicking on 'already a member' button (Karo)",
-      "date format on admin page",
+      "date format on admin page, prefix 0",
       "showDogs()",
       "no show user panel / news panel by default when logged in",
       "label issues (Karo)",
@@ -41,9 +48,9 @@
     "title": "Changed",
     "text": [
       "intersection observer setup",
+      "when to trigger fetch data on admin page",
       "more reusable functions",
-      "styling changes for consistency: delete animal button, rounded form border",
-      "when to trigger fetch status on admin page"
+      "styling changes for consistency: delete animal button, rounded form border"
     ]
   },
   {
@@ -53,27 +60,39 @@
     "text": [
       "follow animal",
       "filter animal by type and follow",
-      "Added 3",
-      "feedback message after user interaction"
+      "live update notifications",
+      "feedback messages after user interaction",
+      "validation/requirement for input fields",
+      "set min date in date picker as today (time slot part on logged in page) ",
+      "add placeholder image incase image file doesn’t exist in db"
     ]
-  },
-  {
-    "step": 3,
-    "tag": "h3",
-    "title": "=>",
-    "text": ["estimate time: work style", "follow through", "surprises"]
   },
   {
     "step": 4,
     "tag": "h1",
     "title": "Focuses",
     "text": [
-      "Improve UX with ease",
+      "Improve UX",
       "- various feedback messages from one function ",
+      "- DRY style ",
       "Minimize request count",
       "- live update notifications with 3 states without unnecessary ",
+      "- request data with intersection observer trigger",
+      "- request data depending on if and which type of user is logged in"
+    ]
+  },
+  {
+    "step": 5,
+    "tag": "h3",
+    "title": "Future",
+    "text": [
+      "clean up CSS/SCSS",
+      "image upload on logged in page with service worker",
+      "split one-time donation form into 2 / user test",
+      "close modal when clicking outside modal",
       "Fun",
-      "- ES6 classes, SCSS import"
+      "- ES6 classes",
+      "- SCSS import"
     ]
   }
 ]

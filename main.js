@@ -42,7 +42,8 @@ function expand(e) {
   document.querySelectorAll(".title").forEach(s => {
     s.classList.remove("brown");
   });
-  e.target.classList.toggle("brown");
+  e.target.classList.add("brown");
+  e.target.classList.add("chosen");
   document.querySelectorAll(".step").forEach(s => {
     s.classList.remove("expand");
   });
