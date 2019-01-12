@@ -1,6 +1,41 @@
 [
   {
+    "step": 1,
     "tag": "h1",
-    "text": "KEA / MMD / Frontend Elective / Fall 2018 / Group 11 / Yan"
+    "title": "KEA / MMD / Frontend Elective / Fall 2018 / Group 11 / Yan"
+  },
+  {
+    "step": 2,
+    "tag": "h3",
+    "title": "HOAP idea"
+  },
+  {
+    "step": 2,
+    "tag": "h3",
+    "title": "Split tasks"
+  },
+  {
+    "step": 3,
+    "tag": "h5",
+    "title": "Fixed",
+    "text": ["fixed 1", "fixed 2", "fixed 3"]
+  },
+  {
+    "step": 3,
+    "tag": "h5",
+    "title": "Changed",
+    "text": ["changed 1", "changed 2", "changed 3"]
+  },
+  {
+    "step": 3,
+    "tag": "h5",
+    "title": "Added",
+    "text": ["Added 1", "Added 2", "Added 3"]
+  },
+  {
+    "step": 4,
+    "tag": "h5",
+    "title": "Key points",
+    "text": ["Improve UX", "Solve quota", "Fun"]
   }
 ]
