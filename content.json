@@ -7,12 +7,18 @@
   {
     "step": 2,
     "tag": "h5",
-    "title": "Intro"
+    "title": "Intro",
+    "text": ["HOAP: years of hope"]
   },
   {
     "step": 2,
     "tag": "h5",
-    "title": "Divide & Conquer"
+    "title": "Divide & Conquer",
+    "text": [
+      "Tiril: CSS/SCSS, animations",
+      "Larisa: git, Group work",
+      "Karo: fixes after hand in"
+    ]
   },
   {
     "step": 3,

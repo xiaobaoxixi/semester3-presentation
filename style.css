@@ -45,6 +45,7 @@ body {
   width: 20px; }
 
 .step {
+  padding: 30px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-beteen;
@@ -56,4 +57,9 @@ body {
     border-left: 2px solid #c18e63; }
 
 .title {
-  margin: 30px; }
+  margin: 20px 0; }
+
+.text {
+  line-height: 2;
+  font-size: 23px;
+  color: #c18e63; }

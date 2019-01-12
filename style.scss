@@ -7,6 +7,7 @@
   width: 20px;
 }
 .step {
+  padding: 30px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-beteen;
@@ -19,5 +20,10 @@
   }
 }
 .title {
-  margin: 30px;
+  margin: 20px 0;
+}
+.text {
+  line-height: 2;
+  font-size: $title;
+  color: $brownColor;
 }

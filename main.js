@@ -6,9 +6,6 @@ class Parent {
     if (parent) {
       this.addToParent(this.elem, parent);
     }
-    // if (listener && action && typeof action === "function") {
-    //   this.addListener(this.elem, listener, action);
-    // }
   }
   createElement(tag, classes, text) {
     const elem = document.createElement(tag);
@@ -23,11 +20,6 @@ class Parent {
   addToParent(elem, parent) {
     parent.appendChild(elem);
   }
-  //   addListener(elem, listener, action) {
-  //     elem.addEventListener(listener, e => {
-  //       action(e);
-  //     });
-  //   }
 }
 
 class Title extends Parent {
@@ -58,7 +50,17 @@ function expand(e) {
 }
 
 function getText(e) {
-  console.log("get text");
+  const machingContent = content.filter(c => c.title === e.target.textContent);
+  const textS = machingContent[0].text;
+  if (document.querySelectorAll(".text")) {
+    document.querySelectorAll(".text").forEach(t => {
+      t.remove();
+    });
+  }
+  textS.forEach(t => {
+    console.log(t);
+    const p = new Parent("li", ["text"], t, e.target.parentElement);
+  });
 }
 
 // start
