@@ -39,7 +39,8 @@
       "label issues (Karo)",
       "member picked time slot not showing up on admin page",
       "animal image not change on admin page when switching between animals",
-      "image size in animal detail modal on logged in page"
+      "image size in animal detail modal on logged in page",
+      "and many more..."
     ]
   },
   {
@@ -64,7 +65,9 @@
       "feedback messages after user interaction",
       "validation/requirement for input fields",
       "set min date in date picker as today (time slot part on logged in page) ",
-      "add placeholder image incase image file doesn’t exist in db"
+      "add placeholder image incase image file doesn’t exist in db",
+      "'seenBy' field in 'notification' collection",
+      "'following' field in 'member' collection"
     ]
   },
   {
