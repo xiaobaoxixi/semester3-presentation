@@ -1,0 +1,23 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass style.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaobaoxixi/semester3-presentation.git"
+  },
+  "author": "yan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaobaoxixi/semester3-presentation/issues"
+  },
+  "homepage": "https://github.com/xiaobaoxixi/semester3-presentation#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

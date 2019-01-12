@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+$font: "Raleway", sans-serif;
+$btnHover: #599686;
+$darkbtn: #74b7a5;
+$mainColor: #ead8a6;
+$grayColor: #efefef;
+$darkGrayColor: #cacaca;
+$purpleColor: #2e2f4b;
+$redColor: #a81c1c;
+$brownColor: #c18e63;
+$heading: 40px;
+$title: 24px;
+$subtitle: 19px;
+$text: 14px;
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  main {
+    width: 100%;
+    max-width: 1280px;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 50px;
+    background: $mainColor;
+    display: flex;
+    align-items: center;
+    justify-items: middle;
+  }
+  h1,
+  h3,
+  h5 {
+    cursor: pointer;
+  }
+  h1 {
+    font-size: $heading;
+    color: white;
+  }
+  h3 {
+    font-size: $title;
+  }
+  h5 {
+    font-size: $subtitle;
+  }
+  p {
+    font-size: $text;
+  }
+}
