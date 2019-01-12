@@ -58,9 +58,11 @@ body {
     border-left: 2px solid #a0693a; }
 
 .title {
-  margin: 10px 0; }
+  margin: 10px 0;
+  text-decoration: none; }
   .title.chosen {
-    font-size: 29px; }
+    font-size: 29px;
+    text-decoration: underline; }
 
 .text {
   line-height: 1.7;

@@ -41,6 +41,7 @@ class Title extends Parent {
 function expand(e) {
   document.querySelectorAll(".title").forEach(s => {
     s.classList.remove("brown");
+    s.classList.remove("chosen");
   });
   e.target.classList.add("brown");
   e.target.classList.add("chosen");
