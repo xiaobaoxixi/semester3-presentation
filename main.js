@@ -58,8 +58,11 @@ function getText(e) {
     });
   }
   textS.forEach(t => {
-    console.log(t);
-    const p = new Parent("li", ["text"], t, e.target.parentElement);
+    if (t.indexOf("-") < 0) {
+      const p = new Parent("li", ["text"], t, e.target.parentElement);
+    } else {
+      const p = new Parent("p", ["text"], t, e.target.parentElement);
+    }
   });
 }
 

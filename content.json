@@ -16,7 +16,7 @@
     "title": "Divide & Conquer",
     "text": [
       "Tiril: CSS/SCSS, animations",
-      "Larisa: git, Group work",
+      "Larisa: git, group work",
       "Karo: fixes after hand in"
     ]
   },
@@ -24,24 +24,56 @@
     "step": 3,
     "tag": "h3",
     "title": "Fixed",
-    "text": ["fixed 1", "fixed 2", "fixed 3"]
+    "text": [
+      "page jump when clicking on 'already a member' button (Karo)",
+      "date format on admin page",
+      "showDogs()",
+      "no show user panel / news panel by default when logged in",
+      "label issues (Karo)",
+      "member picked time slot not showing up on admin page",
+      "animal image not change on admin page when switching between animals",
+      "image size in animal detail modal on logged in page"
+    ]
   },
   {
     "step": 3,
     "tag": "h3",
     "title": "Changed",
-    "text": ["changed 1", "changed 2", "changed 3"]
+    "text": [
+      "intersection observer setup",
+      "more reusable functions",
+      "styling changes for consistency: delete animal button, rounded form border",
+      "when to trigger fetch status on admin page"
+    ]
   },
   {
     "step": 3,
     "tag": "h3",
     "title": "Added",
-    "text": ["Added 1", "Added 2", "Added 3"]
+    "text": [
+      "follow animal",
+      "filter animal by type and follow",
+      "Added 3",
+      "feedback message after user interaction"
+    ]
+  },
+  {
+    "step": 3,
+    "tag": "h3",
+    "title": "=>",
+    "text": ["estimate time: work style", "follow through", "surprises"]
   },
   {
     "step": 4,
     "tag": "h1",
     "title": "Focuses",
-    "text": ["Improve UX", "Solve quota", "Fun"]
+    "text": [
+      "Improve UX with ease",
+      "- various feedback messages from one function ",
+      "Minimize request count",
+      "- live update notifications with 3 states without unnecessary ",
+      "Fun",
+      "- ES6 classes, SCSS import"
+    ]
   }
 ]
