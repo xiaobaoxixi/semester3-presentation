@@ -20,7 +20,10 @@
     "title": "Divide & Conquer",
     "text": [
       { "tag": "li", "content": "Me: overall and JavaScript" },
-      { "tag": "li", "content": "Tiril: CSS/SCSS, animations" },
+      {
+        "tag": "li",
+        "content": "Tiril: design process, user testing and iterations"
+      },
       { "tag": "li", "content": "Larisa: git, group work" },
       { "tag": "li", "content": "Karo: fixes after hand in" }
     ]
@@ -33,7 +36,7 @@
       { "tag": "li", "content": "Estimate time" },
       { "tag": "li", "content": "Follow through" },
       { "tag": "li", "content": "Surprises" },
-      { "tag": "li", "content": "Cache" }
+      { "tag": "li", "content": "Quota & Cache" }
     ]
   },
   {
@@ -176,7 +179,7 @@
       },
       {
         "tag": "p",
-        "content": "- trigger request data with intersection observer on admin page"
+        "content": "- trigger request data with intersection observer & flag on admin page"
       }
     ]
   },
