@@ -1,6 +1,6 @@
 "use strict";
 
-class Parent {
+class Element {
   constructor(tag, classes, text, parent) {
     this.elem = this.createElement.apply(this, arguments);
     if (parent) {
@@ -22,7 +22,7 @@ class Parent {
   }
 }
 
-class Title extends Parent {
+class Title extends Element {
   constructor(tag, classes, text, parent, listener, action) {
     super(tag, classes, text, parent, listener, action);
     if (listener && Array.isArray(action)) {
@@ -61,9 +61,9 @@ function getText(e) {
   }
   textS.forEach(t => {
     if (t.indexOf("-") < 0) {
-      const p = new Parent("li", ["text"], t, e.target.parentElement);
+      const p = new Element("li", ["text"], t, e.target.parentElement);
     } else {
-      const p = new Parent("p", ["text"], t, e.target.parentElement);
+      const p = new Element("p", ["text"], t, e.target.parentElement);
     }
   });
 }
@@ -85,7 +85,7 @@ function build(data) {
     // build step div, without duplicate step value
     if (stepS.indexOf(entry.step) < 0) {
       stepS.push(entry.step);
-      const eachStepDiv = new Parent(
+      const eachStepDiv = new Element(
         "div",
         ["step", "step" + entry.step],
         "",

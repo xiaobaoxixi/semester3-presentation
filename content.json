@@ -25,7 +25,12 @@
     "step": 3,
     "tag": "h3",
     "title": "=>",
-    "text": ["estimate time: work style", "follow through", "surprises"]
+    "text": [
+      "estimate time: work style",
+      "follow through",
+      "surprises",
+      "cache"
+    ]
   },
   {
     "step": 3,
@@ -76,8 +81,7 @@
     "title": "Focuses",
     "text": [
       "Improve UX",
-      "- various feedback messages from one function ",
-      "- DRY style ",
+      "- various feedback messages from one function (DRY)",
       "Minimize request count",
       "- live update notifications with 3 states without unnecessary ",
       "- request data with intersection observer trigger",

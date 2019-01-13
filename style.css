@@ -48,7 +48,6 @@ body {
   padding: 30px;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-beteen;
   width: 270px;
   transition: all 0.2s ease; }
   .step.expand {
