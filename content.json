@@ -33,10 +33,12 @@
     "tag": "h3",
     "title": "Overall",
     "text": [
-      { "tag": "li", "content": "Estimate time" },
-      { "tag": "li", "content": "Follow through" },
-      { "tag": "li", "content": "Surprises" },
-      { "tag": "li", "content": "Quota & Cache" }
+      { "tag": "li", "content": "Many strong points" },
+      { "tag": "li", "content": "Weak links" },
+      { "tag": "p", "content": "- estimate time" },
+      { "tag": "p", "content": "- follow through" },
+      { "tag": "p", "content": "- surprises" },
+      { "tag": "p", "content": "- quota & cache" }
     ]
   },
   {
@@ -155,7 +157,7 @@
   {
     "step": 4,
     "tag": "h1",
-    "title": "Focuses",
+    "title": "Focus",
     "text": [
       {
         "tag": "li",
