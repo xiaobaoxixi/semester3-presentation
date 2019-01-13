@@ -211,6 +211,10 @@
         "tag": "p",
         "content": "- styling of feedback message"
       },
+      {
+        "tag": "p",
+        "content": "- budget section on admin page"
+      },
       { "tag": "li", "content": "Tech" },
       {
         "tag": "p",
