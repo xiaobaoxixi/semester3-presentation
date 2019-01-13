@@ -3,23 +3,26 @@
     "step": 1,
     "tag": "h5",
     "title": "KEA/ MMD/ A17 INT/ Frontend Elective/ Group 11/ Yan",
-    "text": ["- with Tiril, Larisa, Karo", "2019 Jan 14"]
+    "text": [
+      { "tag": "li", "content": "with Tiril, Larisa, Karo" },
+      { "tag": "li", "content": "2019 Jan 14" }
+    ]
   },
   {
     "step": 2,
     "tag": "h5",
     "title": "Intro",
-    "text": ["HOAP: years of hope"]
+    "text": [{ "tag": "li", "content": "HOAP: years of hope" }]
   },
   {
     "step": 2,
     "tag": "h5",
     "title": "Divide & Conquer",
     "text": [
-      "Me: JavaScript",
-      "Tiril: CSS/SCSS, animations",
-      "Larisa: git, group work",
-      "Karo: fixes after hand in"
+      { "tag": "li", "content": "Me: JavaScript" },
+      { "tag": "li", "content": "Tiril: CSS/SCSS, animations" },
+      { "tag": "li", "content": "Larisa: git, group work" },
+      { "tag": "li", "content": "Karo: fixes after hand in" }
     ]
   },
   {
@@ -27,10 +30,10 @@
     "tag": "h3",
     "title": "Overall",
     "text": [
-      "Estimate time: work style",
-      "Follow through",
-      "Surprises",
-      "Cache"
+      { "tag": "li", "content": "Estimate time" },
+      { "tag": "li", "content": "Follow through" },
+      { "tag": "li", "content": "Surprises" },
+      { "tag": "li", "content": "Cache" }
     ]
   },
   {
@@ -38,15 +41,34 @@
     "tag": "h3",
     "title": "Fixed",
     "text": [
-      "Page jump when clicking on 'already a member' button (Karo)",
-      "Date format on admin page, prefix 0",
-      "showDogs()",
-      "No show user panel / news panel by default when logged in",
-      "<label> issues (Karo)",
-      "Member picked time slot not showing up on admin page",
-      "Animal image not change on admin page when switching between animals",
-      "Image size in animal detail modal on logged in page",
-      "and many more..."
+      {
+        "tag": "li",
+        "content": "Page jump when clicking on 'already a member' button (Karo) *"
+      },
+      { "tag": "li", "content": "Date format on admin page, prefix 0" },
+      { "tag": "li", "content": "showDogs()" },
+      {
+        "tag": "li",
+        "content": "No show user panel / news panel by default when logged in *"
+      },
+      { "tag": "li", "content": "<label> issues (Karo)" },
+      {
+        "tag": "li",
+        "content": "Member picked time slot not showing up on admin page"
+      },
+      {
+        "tag": "li",
+        "content": "Animal image not change on admin page when switching between animals"
+      },
+      {
+        "tag": "li",
+        "content": "Image size in animal detail modal on logged in page"
+      },
+      { "tag": "li", "content": "and many more..." },
+      {
+        "tag": "i",
+        "content": "* mentioned in hand-in "
+      }
     ]
   },
   {
@@ -54,11 +76,30 @@
     "tag": "h3",
     "title": "Changed",
     "text": [
-      "Intersection observer setup",
-      "Trigger of fetching data on admin page",
-      "More reusable functions",
-      "Styling changes for consistency: delete animal button, rounded form border",
-      "Detect user permission"
+      {
+        "tag": "li",
+        "content": "Intersection observer setup *"
+      },
+      {
+        "tag": "li",
+        "content": "Trigger of fetching data on admin page"
+      },
+      {
+        "tag": "li",
+        "content": "More reusable functions *"
+      },
+      {
+        "tag": "li",
+        "content": "Styling changes for consistency: delete animal button, rounded form border *"
+      },
+      {
+        "tag": "li",
+        "content": "Detect user permission"
+      },
+      {
+        "tag": "i",
+        "content": "* mentioned in hand-in "
+      }
     ]
   },
   {
@@ -66,15 +107,46 @@
     "tag": "h3",
     "title": "Added",
     "text": [
-      "Follow animal",
-      "Filter animal by type and follow",
-      "Subscribe to notifications",
-      "Feedback messages after user interaction",
-      "Validation/requirement for input fields",
-      "Set min date in date picker as today (time slot part on logged in page) ",
-      "Add placeholder image incase image file doesn’t exist in db",
-      "'seenBy' field in 'notification' collection",
-      "'following' field in 'member' collection"
+      {
+        "tag": "li",
+        "content": "Filter animal by type and follow *"
+      },
+      {
+        "tag": "li",
+        "content": "Follow animal *"
+      },
+      {
+        "tag": "li",
+        "content": "following' field in 'member' collection"
+      },
+      {
+        "tag": "li",
+        "content": "Live update notifications"
+      },
+      {
+        "tag": "li",
+        "content": "'seenBy' field in 'notification' collection"
+      },
+      {
+        "tag": "li",
+        "content": "Feedback messages after user interaction"
+      },
+      {
+        "tag": "li",
+        "content": "Validation/requirement for input fields"
+      },
+      {
+        "tag": "li",
+        "content": "Set min date in date picker as today (time slot part on logged in page)"
+      },
+      {
+        "tag": "li",
+        "content": "Add placeholder image incase image file doesn’t exist in db"
+      },
+      {
+        "tag": "i",
+        "content": "* mentioned in hand-in "
+      }
     ]
   },
   {
@@ -82,12 +154,30 @@
     "tag": "h1",
     "title": "Focuses",
     "text": [
-      "Improve UX",
-      "- various feedback messages from one function (DRY)",
-      "Minimize request count",
-      "- live update notifications with 3 states without unnecessary ",
-      "- request data with intersection observer trigger",
-      "- request data depending on if and which type of user is logged in"
+      {
+        "tag": "li",
+        "content": "Improve UX"
+      },
+      {
+        "tag": "p",
+        "content": "- various feedback messages from one function (with reusable fn)"
+      },
+      {
+        "tag": "li",
+        "content": "Minimize request count"
+      },
+      {
+        "tag": "p",
+        "content": "- request data depending on if and which type of user is logged in "
+      },
+      {
+        "tag": "p",
+        "content": "- live update notifications with 3 states without unnecessary request"
+      },
+      {
+        "tag": "p",
+        "content": "- trigger request data with intersection observer on admin page"
+      }
     ]
   },
   {
@@ -95,14 +185,20 @@
     "tag": "h3",
     "title": "Future",
     "text": [
-      "UX",
-      "- split one-time donation form into 2 / user test",
-      "- close modal when clicking outside modal",
-      "Tech",
-      "- image upload on logged in page with service worker",
-      "Fun",
-      "- ES6 classes",
-      "- SCSS"
+      { "tag": "li", "content": "UX" },
+      {
+        "tag": "p",
+        "content": "- split one-time donation form into 2 / user test"
+      },
+      { "tag": "p", "content": "- close modal when clicking outside modal" },
+      { "tag": "li", "content": "Tech" },
+      {
+        "tag": "p",
+        "content": "- image upload on logged in page with service worker"
+      },
+      { "tag": "li", "content": "Fun" },
+      { "tag": "p", "content": "- ES6 classes" },
+      { "tag": "p", "content": "- SCSS" }
     ]
   }
 ]

@@ -60,10 +60,12 @@ function getText(e) {
     });
   }
   textS.forEach(t => {
-    if (t.indexOf("-") < 0) {
-      const p = new Element("li", ["text"], t, e.target.parentElement);
+    if (t instanceof Object) {
+      const tag = t.tag;
+      const content = t.content;
+      const entry = new Element(tag, ["text"], content, e.target.parentElement);
     } else {
-      const p = new Element("p", ["text"], t, e.target.parentElement);
+      console.log("data type error");
     }
   });
 }

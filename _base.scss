@@ -13,6 +13,7 @@ $heading: 37px;
 $title: 23px;
 $titleChosen: 29px;
 $text: 18px;
+$footnote: 13px;
 
 * {
   margin: 0;
@@ -60,5 +61,8 @@ body {
   }
   p {
     font-size: $text;
+  }
+  i {
+    font-size: $footnote;
   }
 }

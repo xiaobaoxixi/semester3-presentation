@@ -38,6 +38,8 @@ body {
     font-size: 18px; }
   body p {
     font-size: 18px; }
+  body i {
+    font-size: 13px; }
 
 .brown {
   color: #a0693a; }
@@ -46,7 +48,7 @@ body {
   width: 20px; }
 
 .step {
-  padding: 30px;
+  padding: 10px 30px;
   display: flex;
   flex-flow: column nowrap;
   width: 270px;
@@ -68,6 +70,10 @@ body {
   line-height: 1.7;
   font-size: 18px;
   color: #a0693a; }
+
+i.text {
+  font-size: 13px;
+  margin-top: 20px; }
 
 li:first-of-type {
   margin-top: 30px; }
