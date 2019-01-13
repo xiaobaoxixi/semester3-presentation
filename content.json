@@ -77,16 +77,8 @@
   {
     "step": 3,
     "tag": "h3",
-    "title": "Changed",
+    "title": "Improved",
     "text": [
-      {
-        "tag": "li",
-        "content": "Intersection observer setup *"
-      },
-      {
-        "tag": "li",
-        "content": "Trigger of fetching data on admin page"
-      },
       {
         "tag": "li",
         "content": "More reusable functions *"
@@ -94,6 +86,14 @@
       {
         "tag": "li",
         "content": "Styling changes for consistency: delete animal button, rounded form border *"
+      },
+      {
+        "tag": "li",
+        "content": "Intersection observer setup *"
+      },
+      {
+        "tag": "li",
+        "content": "Trigger of fetching data on admin page"
       },
       {
         "tag": "li",
@@ -120,7 +120,7 @@
       },
       {
         "tag": "li",
-        "content": "following' field in 'member' collection"
+        "content": "'following' field in 'member' collection"
       },
       {
         "tag": "li",
@@ -180,6 +180,18 @@
       {
         "tag": "p",
         "content": "- trigger request data with intersection observer & flag on admin page"
+      },
+      {
+        "tag": "li",
+        "content": "Code structure"
+      },
+      {
+        "tag": "p",
+        "content": "- refactor "
+      },
+      {
+        "tag": "p",
+        "content": "- find pattern"
       }
     ]
   },
@@ -194,6 +206,11 @@
         "content": "- split one-time donation form into 2 / user test"
       },
       { "tag": "p", "content": "- close modal when clicking outside modal" },
+      { "tag": "li", "content": "UI" },
+      {
+        "tag": "p",
+        "content": "- styling of feedback message"
+      },
       { "tag": "li", "content": "Tech" },
       {
         "tag": "p",
