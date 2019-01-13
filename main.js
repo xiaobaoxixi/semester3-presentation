@@ -82,7 +82,7 @@ fetch("content.json")
 function build(data) {
   const stepS = [];
   data.forEach(entry => {
-    // build step div, without duplicate step value
+    // build step div upon first appearence, without duplicate step
     if (stepS.indexOf(entry.step) < 0) {
       stepS.push(entry.step);
       const eachStepDiv = new Element(
@@ -91,27 +91,16 @@ function build(data) {
         "",
         base
       );
-      // fill in first content for each step
-      const stepDiv = document.querySelector(`.step${entry.step}`);
-      const eachTitle = new Title(
-        entry.tag,
-        ["title"],
-        entry.title,
-        stepDiv,
-        "click",
-        [expand, getText]
-      );
-    } else {
-      // fill in following content for each step
-      const stepDiv = document.querySelector(`.step${entry.step}`);
-      const eachTitle = new Title(
-        entry.tag,
-        ["title"],
-        entry.title,
-        stepDiv,
-        "click",
-        [expand, getText]
-      );
     }
+    // fill in following content for each step
+    const stepDiv = document.querySelector(`.step${entry.step}`);
+    const eachTitle = new Title(
+      entry.tag,
+      ["title"],
+      entry.title,
+      stepDiv,
+      "click",
+      [expand, getText]
+    );
   });
 }
