@@ -26,10 +26,10 @@
     "tag": "h3",
     "title": "=>",
     "text": [
-      "estimate time: work style",
-      "follow through",
-      "surprises",
-      "cache"
+      "Estimate time: work style",
+      "Follow through",
+      "Surprises",
+      "Cache"
     ]
   },
   {
@@ -37,14 +37,14 @@
     "tag": "h3",
     "title": "Fixed",
     "text": [
-      "page jump when clicking on 'already a member' button (Karo)",
-      "date format on admin page, prefix 0",
+      "Page jump when clicking on 'already a member' button (Karo)",
+      "Date format on admin page, prefix 0",
       "showDogs()",
-      "no show user panel / news panel by default when logged in",
-      "label issues (Karo)",
-      "member picked time slot not showing up on admin page",
-      "animal image not change on admin page when switching between animals",
-      "image size in animal detail modal on logged in page",
+      "No show user panel / news panel by default when logged in",
+      "<label> issues (Karo)",
+      "Member picked time slot not showing up on admin page",
+      "Animal image not change on admin page when switching between animals",
+      "Image size in animal detail modal on logged in page",
       "and many more..."
     ]
   },
@@ -53,10 +53,11 @@
     "tag": "h3",
     "title": "Changed",
     "text": [
-      "intersection observer setup",
-      "when to trigger fetch data on admin page",
-      "more reusable functions",
-      "styling changes for consistency: delete animal button, rounded form border"
+      "Intersection observer setup",
+      "Trigger of fetching data on admin page",
+      "More reusable functions",
+      "Styling changes for consistency: delete animal button, rounded form border",
+      "Detect user permission"
     ]
   },
   {
@@ -64,13 +65,13 @@
     "tag": "h3",
     "title": "Added",
     "text": [
-      "follow animal",
-      "filter animal by type and follow",
-      "live update notifications",
-      "feedback messages after user interaction",
-      "validation/requirement for input fields",
-      "set min date in date picker as today (time slot part on logged in page) ",
-      "add placeholder image incase image file doesn’t exist in db",
+      "Follow animal",
+      "Filter animal by type and follow",
+      "Subscribe to notifications",
+      "Feedback messages after user interaction",
+      "Validation/requirement for input fields",
+      "Set min date in date picker as today (time slot part on logged in page) ",
+      "Add placeholder image incase image file doesn’t exist in db",
       "'seenBy' field in 'notification' collection",
       "'following' field in 'member' collection"
     ]
@@ -93,13 +94,14 @@
     "tag": "h3",
     "title": "Future",
     "text": [
-      "clean up CSS/SCSS",
-      "image upload on logged in page with service worker",
-      "split one-time donation form into 2 / user test",
-      "close modal when clicking outside modal",
+      "UX",
+      "- split one-time donation form into 2 / user test",
+      "- close modal when clicking outside modal",
+      "Tech",
+      "- image upload on logged in page with service worker",
       "Fun",
       "- ES6 classes",
-      "- SCSS import"
+      "- SCSS"
     ]
   }
 ]
