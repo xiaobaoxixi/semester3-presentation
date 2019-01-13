@@ -13,6 +13,7 @@ body {
     width: 100%;
     max-width: 1400px;
     height: 90vh;
+    max-height: 800px;
     position: absolute;
     top: 0;
     bottom: 0;
