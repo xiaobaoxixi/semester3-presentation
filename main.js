@@ -24,7 +24,7 @@ class Element {
 
 class Title extends Element {
   constructor(tag, classes, text, parent, listener, action) {
-    super(tag, classes, text, parent, listener, action);
+    super(tag, classes, text, parent);
     if (listener && Array.isArray(action)) {
       action.forEach(a => {
         this.addListener(this.elem, listener, a);
