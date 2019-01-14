@@ -79,37 +79,6 @@
   {
     "step": 3,
     "tag": "h3",
-    "title": "Improved",
-    "text": [
-      {
-        "tag": "li",
-        "content": "More reusable functions *"
-      },
-      {
-        "tag": "li",
-        "content": "Styling changes for consistency: delete animal button, rounded form border *"
-      },
-      {
-        "tag": "li",
-        "content": "Intersection observer setup *"
-      },
-      {
-        "tag": "li",
-        "content": "Trigger of fetching data on admin page"
-      },
-      {
-        "tag": "li",
-        "content": "Detect user permission"
-      },
-      {
-        "tag": "i",
-        "content": "* mentioned in hand-in "
-      }
-    ]
-  },
-  {
-    "step": 3,
-    "tag": "h3",
     "title": "Added",
     "text": [
       {
@@ -147,6 +116,38 @@
       {
         "tag": "li",
         "content": "Add placeholder image incase image file doesn’t exist in db"
+      },
+      {
+        "tag": "i",
+        "content": "* mentioned in hand-in "
+      }
+    ]
+  },
+
+  {
+    "step": 3,
+    "tag": "h3",
+    "title": "Improved",
+    "text": [
+      {
+        "tag": "li",
+        "content": "More reusable functions *"
+      },
+      {
+        "tag": "li",
+        "content": "Styling changes for consistency: delete animal button, rounded form border *"
+      },
+      {
+        "tag": "li",
+        "content": "Intersection observer setup *"
+      },
+      {
+        "tag": "li",
+        "content": "Trigger of fetching data on admin page"
+      },
+      {
+        "tag": "li",
+        "content": "Detect user permission"
       },
       {
         "tag": "i",
